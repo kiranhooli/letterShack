@@ -1,0 +1,133 @@
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	background: linear-gradient(to right, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 4%, rgba(183,222,237,1) 32%, rgba(204,230,240,1) 63%, rgba(33,180,226,1) 94%, rgba(33,180,226,1) 100%);
+}
+
+.coverpage{
+	width:100%;
+	height:200px;
+	background-color: #444444;
+	margin:0px;
+	padding:0px;
+}
+.coverpage>img{
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 80px 40px 0px 80px;
+	float:left;
+}
+.coverpage>h1{
+	color:white;
+	text-transform: uppercase;
+	padding:146px 0px 0px 40px;
+}
+.coverpage>h5{
+	color:#012b72;
+}
+
+.postform{
+	height:500px;
+	background-color: transparent;
+	margin-top:100px;
+	padding:40px;
+}
+.postform>form>table{
+	margin:60px;
+	padding:10px;
+}
+#postname{
+	width:200%;
+}
+#postbody{
+	width:200%;
+}
+
+
+.navbar {
+    background-color: #012b72;
+    z-index: 1;
+}
+.wrap{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.card-wrap{
+  height:300px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+  margin:0px 0px 20px 0px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+   width:45%;
+}
+.card-wrap:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-desc{
+  margin:10px;
+  height:220px;
+  color:#000000;
+}
+.card-desc > p{
+	color:black;
+	padding:10px;
+}
+.card-desc>h4{
+	font-weight:bold;
+	padding:10px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	color:#012b72;
+}
+.card-loc{
+	color:white;
+	background-color: black;
+	border-radius: 4px;
+
+}
+.card-loc>p{
+	padding: 0px 0px 12px 5px;
+}
+
+.form-bg{
+	background-color: #bbbbbb;
+	align-content: center;
+	border: 1px solid #33333;
+	border-radius: 4px;
+}
+input.form-control.validate {
+    border-bottom: 1px solid black;
+}
+
+footer.page-footer.mt-4.pytm-col.font-small.pt-4.mt-4.b-0 {
+    background-color: #012b72;
+}
+
+@media only screen and (max-width: 768px) {
+	.brand{
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+    .navbar {
+        background-color: #012b72;
+    }
+	.wrap{
+		margin:-5px;
+		padding-top:5px;
+	}
+	.card-wrap{
+	  height:370px;
+	}
+	.card-desc{
+	  margin:10px;
+	  height:100px;
+	}
+}
